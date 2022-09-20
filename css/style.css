@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap');
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    width: 810px;
+    margin: 0 auto;
+    font-family: Lato, serif;
+    color: #424551;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 1.3;
+    color: #1E212C;
+}
+
+p,
+ul {
+    margin-bottom: 24px;
+}
+
+li {
+    margin: 0 0 4px 32px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+.main-image {
+    margin-bottom: 60px;
+    border-radius: 4px;
+    max-width: 100%;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #1E212C;
+}
+
+.quote {
+    margin: 48px 0 48px 58px;
+}
+
+.text {
+    border-bottom: 5px solid #ccc;
+}
+
+.story {
+    font-family: "Roboto Mono", serif;
+    font-style: italic;
+    background-color: rgb(228, 219, 97);
+    padding: 10px;
+}
+
+.story h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.story-start {
+    text-decoration: underline;
+    background-color: rgb(97, 228, 106);
+    width: 500px;
+    padding: 15px;
+}
+
+.story-chapter {
+    text-shadow: 1px 1px 3px rgb(73, 68, 68);
+    min-width: 500px;
+    opacity: 0.7;
+}
+
+.story-plot {
+    text-transform: capitalize;
+    height: 500px;
+    overflow: hidden;
+}
+
+.story-climax {
+    text-indent: 10px;
+    letter-spacing: 5px;
+    min-height: 300px;
+}
+
+.story-climax span {
+    display: block;
+    background-color: #fff;
+    outline: 1px solid #000;
+}
+
+footer {
+    white-space: nowrap;
+    word-spacing: 10px;
+    max-height: 50px;
+    box-shadow: inset 0px 0px 5px 3px #000;
+}
+
+.goose {
+    visibility: hidden;
+}
